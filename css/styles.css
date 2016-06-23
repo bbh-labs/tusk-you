@@ -1,0 +1,297 @@
+@font-face {
+    font-family: 'Din-Condensed';
+    src: url('../fonts/DIN Condensed Bold.ttf');
+}
+
+/***************
+ * Container *
+ ***************/
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	text-align: center;
+}
+
+.container h1{
+	font-size: 140pt;
+	letter-spacing: 24pt;
+  line-height:140pt;
+}
+
+.container h2{
+	font-size: 48pt;
+	letter-spacing: .pt;
+  line-height:60pt;
+  max-width: 800px;
+  display: inline-block;
+}
+
+.container h3{
+	font-size: 32pt;
+	letter-spacing: 4pt;
+	margin: 10px;
+  line-height: 48pt;
+}
+
+.container p{
+	font-size: 12pt;
+	max-width: 550px;
+	display: inline-block;
+	letter-spacing: .5pt;
+}
+
+.opacity{
+  opacity: 0.8;
+}
+
+.drop-shadow{
+  text-shadow: 3px 3px #333;
+}
+
+.hidden {
+  display: none;
+}
+/***************
+ * story-one *
+ ***************/
+#story-one {
+  background-image: url("../images/page1_bg.jpg");
+  background-position: center;
+	background-size: cover;
+  position: absolute;
+  display: table;
+  background-color: black;
+  z-index: 5;
+}
+
+
+#story-one .logo {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#story-one .logo h2 {
+	font-family: 'Din-Condensed',Fallback, sans-serif;
+	text-transform: uppercase;
+	color: white;
+	font-size: 100pt;
+	letter-spacing: 10pt;
+	display: inline-block;
+	margin:auto 100pt;
+}
+
+/***************
+ * story-two - 8 *
+ ***************/
+#story-one, #story-two,  #story-three, #story-four, #story-five, #story-six, #story-seven, #story-eight{
+	display: table;
+  color: white;
+  text-transform: uppercase;
+  height: 100%;
+  width: 100%;
+}
+
+/***************
+ * story-five *
+ ***************/
+#story-five{
+  background-color: black;
+}
+
+ #story-five .layout{
+   position: fixed;
+   right: 20%;
+   top:30%;
+ }
+
+ #story-five h1{
+   font-size: 140pt;
+   margin: 0;
+ }
+
+#story-five h3{
+  font-size: 56pt;
+  margin: 0;
+}
+
+#story-five h4{
+  font-size: 41pt;
+  margin: 0;
+}
+
+#story-five .animation{
+  position: relative;
+}
+
+#story-five .elephant{
+  left: 10%;
+  display: inline-block;
+  position: relative;
+  float: left;
+}
+
+#story-five .elephant img{
+  max-width: 400px;
+}
+
+#story-five .knife{
+  left:7%;
+  display: inline-block;
+  position: relative;
+}
+
+#story-five .knife img{
+  max-width: 35px;
+  margin-top: -10px
+}
+
+
+/***************
+ * story-six *
+ ***************/
+ #story-six .animation{
+   position: absolute;
+   margin: 0 auto;
+   text-align: center;
+   width: 100%;
+ }
+
+/***************
+ * story-seven *
+ ***************/
+ #story-seven .layout{
+   position: fixed;
+   right: 10%;
+   top:30%;
+ }
+ #story-seven h1{
+   font-size: 80pt;
+   margin: 0;
+ }
+
+#story-seven h3{
+  font-size: 56pt;
+  margin: 0;
+}
+
+#story-seven h4{
+  font-size: 32pt;
+  margin: 0;
+}
+
+#story-seven .animation{
+  margin-top: 50px;
+}
+#story-seven .animation img{
+  max-width: 65%;
+  float: left;
+}
+
+#story-seven .animation hr{
+border: 1px dashed #fff;
+width: 600px;
+position: absolute;
+z-index: -2;
+margin-top: -10px;
+left: 16%;
+}
+
+
+#story-seven .year2016{
+  left: 15%;
+  display: inline-block;
+  position: relative;
+}
+
+#story-seven .year2017{
+  left: 20%;
+  position: relative;
+  display: inline-block;
+}
+
+#story-seven .year2018{
+  left: 25%;
+  position: relative;
+  display: inline-block;
+}
+
+#story-seven .year2019{
+  left: 35%;;
+  position: relative;;
+  display: inline-block;
+}
+
+/***************
+ * story-eight *
+ ***************/
+ #story-eight .layout{
+   position: fixed;
+   top: 60%;
+   left: 25%;
+ }
+
+ #story-eight h2{
+   font-size: 48pt;
+   line-height: 48pt;
+   margin: 0;
+ }
+
+#story-eight li{
+  font-size: 24pt;
+  margin: 0;
+  max-width: 300px;
+  float: left;
+  margin-top: 20px;
+  margin-right: 20px;
+  list-style-image: url(../images/dot.png);
+}
+
+#story-eight .animation img{
+  max-width: 80%;
+}
+
+#story-eight .china{
+  left: 30%;
+  top: 20%;
+  position: fixed;
+}
+
+#story-eight .usa{
+  left:50%;
+  top: 30%;
+  position: fixed;
+}
+
+#story-eight .world{
+  left: 70%;
+  top: 5%;
+  position: fixed;
+}
+
+/***************
+ * story-nine *
+ ***************/
+#story-nine {
+  background-image: url("../images/page9_bg.jpg");
+  background-position: center;
+	background-size: cover;
+  position: absolute;
+  display: table;
+  background-color: black;
+  height: 100%;
+  width: 100%;
+}
+
+#story-nine p{
+  color: white;
+  text-transform: uppercase;
+  display: inline-block;
+  position: fixed;
+  left: 15%;
+  font-size: 14pt;
+  letter-spacing: 2pt;
+  top: 62%;
+}
